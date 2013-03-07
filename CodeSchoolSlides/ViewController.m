@@ -56,7 +56,13 @@
 {
     NSLog(@"Button pressed, sender: %@", sender);
     self.view.alpha = ((double)arc4random() / 0x100000000);
-    [sender removeFromSuperview];
+    if ([sender.titleLabel.text isEqualToString:@"Make 50%"]) {
+        self.view.alpha = .5;
+        NSLog(@"set alpha to 50%%");
+    } else {
+        self.view.alpha = 1;
+        NSLog(@"set alpha to 100%%");
+    }
 }
 
 
