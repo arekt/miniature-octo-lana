@@ -18,7 +18,10 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *firstButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    firstButton.frame = CGRectMake(100, 100, 100, 44);
+    [firstButton setTitle:@"Click me!" forState:UIControlStateNormal];
+    [self.view addSubview:firstButton];
 }
 
 - (void)didReceiveMemoryWarning
