@@ -30,6 +30,13 @@
     [firstButton addTarget:self
         action:@selector(buttonPressed:)
         forControlEvents:UIControlEventTouchUpInside];
+    UIButton *secondButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    secondButton.frame = CGRectMake(100, 300, 100, 44);
+    [secondButton setTitle:@"Make 100%" forState:UIControlStateNormal];
+    [self.view addSubview:secondButton];
+    [secondButton addTarget:self
+        action:@selector(buttonPressed:)
+        forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
