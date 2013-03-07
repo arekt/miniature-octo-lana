@@ -24,6 +24,7 @@
     [firstButton setTitle:@"Auuuuuuu!" forState:UIControlStateHighlighted];
     UILabel *firstLabel = [[UILabel alloc] initWithFrame:CGRectMake(50, 30, 200, 44)];
     firstLabel.text = @"Hello, welcome to my app!";
+    firstLabel.backgroundColor = [UIColor clearColor];
     [self.view addSubview:firstButton];
     [self.view addSubview:firstLabel];
 }
