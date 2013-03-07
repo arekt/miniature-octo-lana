@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 - (void)buttonPressed:(UIButton *)sender;
+@property (weak, nonatomic) UIButton *firstButton;
+@property (weak, nonatomic) UIButton *secondButton;
 @end
