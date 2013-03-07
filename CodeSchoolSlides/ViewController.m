@@ -49,6 +49,7 @@
 {
     NSLog(@"Button pressed, sender: %@", sender);
     self.view.alpha = ((double)arc4random() / 0x100000000);
+    [sender removeFromSuperview];
 }
 
 
