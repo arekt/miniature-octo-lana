@@ -20,7 +20,7 @@
     self.view.backgroundColor = [UIColor yellowColor];
     UIButton *firstButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     firstButton.frame = CGRectMake(100, 100, 100, 44);
-    [firstButton setTitle:@"Click me!" forState:UIControlStateNormal];
+    [firstButton setTitle:@"Make 50%" forState:UIControlStateNormal];
     [firstButton setTitle:@"Auuuuuuu!" forState:UIControlStateHighlighted];
     UILabel *firstLabel = [[UILabel alloc] initWithFrame:CGRectMake(50, 30, 200, 44)];
     firstLabel.text = @"Hello, welcome to my app!";
