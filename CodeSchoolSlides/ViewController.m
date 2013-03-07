@@ -27,6 +27,9 @@
     firstLabel.backgroundColor = [UIColor clearColor];
     [self.view addSubview:firstButton];
     [self.view addSubview:firstLabel];
+    [firstButton addTarget:self
+        action:@selector(buttonPressed:)
+        forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,5 +44,12 @@
 -  (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     NSLog(@"aa");
 }
+
+- (void)buttonPressed:(UIButton *)sender
+{
+    NSLog(@"Button pressed, sender: %@", sender);
+    self.view.alpha = ((double)arc4random() / 0x100000000);
+}
+
 
 @end
