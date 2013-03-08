@@ -13,12 +13,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    UIViewController *feedViewController = [[UIViewController alloc] init];
+    feedViewController.title = @"Feed";
+    UIViewController *favoritesViewController = [[UIViewController alloc] init];
+    favoritesViewController.title = @"Favorites";
+    feedViewController.view.backgroundColor = [UIColor blueColor];
+    favoritesViewController.view.backgroundColor = [UIColor redColor];
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;
+    [tabBarController setViewControllers:@[feedViewController, favoritesViewController]];
     [self.window makeKeyAndVisible];
-
     return YES;
 }
 							
