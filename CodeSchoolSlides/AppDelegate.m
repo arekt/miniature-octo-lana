@@ -13,15 +13,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    CGRect viewRect = [[UIScreen mainScreen] bounds];
-    self.window = [[UIWindow alloc] initWithFrame:viewRect];
-    [self.window makeKeyAndVisible];
-    self.viewController = [[ViewController alloc] init];
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
     
-    NSLog(@"Screen is %f tall and %f wide",
-          viewRect.size.height, viewRect.size.width);
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 							
