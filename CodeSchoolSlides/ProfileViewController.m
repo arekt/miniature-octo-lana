@@ -31,6 +31,11 @@
 	// Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor greenColor];
     self.title = @"Profile";
+    UIImageView *pictureView = [[UIImageView alloc] initWithImage:
+                              [UIImage imageNamed:@"a2.jpg"]];
+    [pictureView setContentMode:UIViewContentModeScaleAspectFit];
+    pictureView.frame = self.view.frame;
+    [self.view addSubview:pictureView];
 }
 
 - (void)didReceiveMemoryWarning

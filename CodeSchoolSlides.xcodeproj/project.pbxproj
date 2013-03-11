@@ -27,6 +27,7 @@
 		E6DC9B7316EDDAEF00B4E1BE /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC9B7216EDDAEF00B4E1BE /* FeedViewController.m */; };
 		E6DC9B7616EDDCC500B4E1BE /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC9B7516EDDCC500B4E1BE /* FavoritesViewController.m */; };
 		E6DC9B8116EDE06800B4E1BE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC9B8016EDE06800B4E1BE /* ProfileViewController.m */; };
+		E6DC9B8316EDE3EA00B4E1BE /* a2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6DC9B8216EDE3EA00B4E1BE /* a2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		E6DC9B7516EDDCC500B4E1BE /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		E6DC9B7F16EDE06800B4E1BE /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		E6DC9B8016EDE06800B4E1BE /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		E6DC9B8216EDE3EA00B4E1BE /* a2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				E63C1CC416D5ABF0006F32DA /* InfoPlist.strings */,
 				E63C1CC716D5ABF1006F32DA /* main.m */,
 				E6DC9B6F16EDD96A00B4E1BE /* a1.png */,
+				E6DC9B8216EDE3EA00B4E1BE /* a2.jpg */,
 				E63C1CC916D5ABF1006F32DA /* CodeSchoolSlides-Prefix.pch */,
 				E63C1CCD16D5ABF1006F32DA /* Default.png */,
 				E63C1CCF16D5ABF1006F32DA /* Default@2x.png */,
@@ -255,6 +258,7 @@
 				E63C1CD216D5ABF1006F32DA /* Default-568h@2x.png in Resources */,
 				E63C1CD516D5ABF1006F32DA /* MainStoryboard.storyboard in Resources */,
 				E6DC9B7016EDD96A00B4E1BE /* a1.png in Resources */,
+				E6DC9B8316EDE3EA00B4E1BE /* a2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
