@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import "FeedViewController.h"
 #import "FavoritesViewController.h"
+#import "ProfileViewController.h"
 
 @implementation AppDelegate
 
@@ -17,11 +18,12 @@
 {
     FeedViewController *feedViewController = [[FeedViewController alloc] init];
     FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
+    ProfileViewController *profileViewController = [[ProfileViewController alloc] init];
 
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;
-    [tabBarController setViewControllers:@[feedViewController, favoritesViewController]];
+    [tabBarController setViewControllers:@[feedViewController, favoritesViewController, profileViewController]];
     [self.window makeKeyAndVisible];
     return YES;
 }

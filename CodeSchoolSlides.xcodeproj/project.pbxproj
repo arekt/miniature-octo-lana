@@ -26,6 +26,7 @@
 		E6DC9B7016EDD96A00B4E1BE /* a1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6DC9B6F16EDD96A00B4E1BE /* a1.png */; };
 		E6DC9B7316EDDAEF00B4E1BE /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC9B7216EDDAEF00B4E1BE /* FeedViewController.m */; };
 		E6DC9B7616EDDCC500B4E1BE /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC9B7516EDDCC500B4E1BE /* FavoritesViewController.m */; };
+		E6DC9B8116EDE06800B4E1BE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DC9B8016EDE06800B4E1BE /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		E6DC9B7216EDDAEF00B4E1BE /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
 		E6DC9B7416EDDCC500B4E1BE /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
 		E6DC9B7516EDDCC500B4E1BE /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		E6DC9B7F16EDE06800B4E1BE /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		E6DC9B8016EDE06800B4E1BE /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				E63C1CD616D5ABF1006F32DA /* ViewController.h */,
 				E63C1CD716D5ABF1006F32DA /* ViewController.m */,
 				E63C1CC216D5ABF0006F32DA /* Supporting Files */,
+				E6DC9B7F16EDE06800B4E1BE /* ProfileViewController.h */,
+				E6DC9B8016EDE06800B4E1BE /* ProfileViewController.m */,
 			);
 			path = CodeSchoolSlides;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				E63C1CD816D5ABF1006F32DA /* ViewController.m in Sources */,
 				E6DC9B7316EDDAEF00B4E1BE /* FeedViewController.m in Sources */,
 				E6DC9B7616EDDCC500B4E1BE /* FavoritesViewController.m in Sources */,
+				E6DC9B8116EDE06800B4E1BE /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
