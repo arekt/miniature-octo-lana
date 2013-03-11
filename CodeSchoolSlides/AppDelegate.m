@@ -8,19 +8,16 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "FeedViewController.h"
+#import "FavoritesViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    UIViewController *feedViewController = [[UIViewController alloc] init];
-    feedViewController.title = @"Feed";
-    UIImage *origImage = [UIImage imageNamed:@"a1.png"];
-    feedViewController.tabBarItem.image = [UIImage imageWithCGImage:origImage.CGImage scale:10 orientation:0 ];
-    UIViewController *favoritesViewController = [[UIViewController alloc] init];
-    favoritesViewController.title = @"Favorites";
-    feedViewController.view.backgroundColor = [UIColor blueColor];
-    favoritesViewController.view.backgroundColor = [UIColor redColor];
+    FeedViewController *feedViewController = [[FeedViewController alloc] init];
+    FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
+
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;
