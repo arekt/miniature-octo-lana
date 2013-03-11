@@ -23,6 +23,7 @@
 		E63C1CE216D5ABF1006F32DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63C1CBD16D5ABF0006F32DA /* Foundation.framework */; };
 		E63C1CEA16D5ABF1006F32DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63C1CE816D5ABF1006F32DA /* InfoPlist.strings */; };
 		E63C1CED16D5ABF1006F32DA /* CodeSchoolSlidesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C1CEC16D5ABF1006F32DA /* CodeSchoolSlidesTests.m */; };
+		E6DC9B7016EDD96A00B4E1BE /* a1.png in Resources */ = {isa = PBXBuildFile; fileRef = E6DC9B6F16EDD96A00B4E1BE /* a1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		E63C1CE916D5ABF1006F32DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E63C1CEB16D5ABF1006F32DA /* CodeSchoolSlidesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeSchoolSlidesTests.h; sourceTree = "<group>"; };
 		E63C1CEC16D5ABF1006F32DA /* CodeSchoolSlidesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeSchoolSlidesTests.m; sourceTree = "<group>"; };
+		E6DC9B6F16EDD96A00B4E1BE /* a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				E63C1CC316D5ABF0006F32DA /* CodeSchoolSlides-Info.plist */,
 				E63C1CC416D5ABF0006F32DA /* InfoPlist.strings */,
 				E63C1CC716D5ABF1006F32DA /* main.m */,
+				E6DC9B6F16EDD96A00B4E1BE /* a1.png */,
 				E63C1CC916D5ABF1006F32DA /* CodeSchoolSlides-Prefix.pch */,
 				E63C1CCD16D5ABF1006F32DA /* Default.png */,
 				E63C1CCF16D5ABF1006F32DA /* Default@2x.png */,
@@ -236,6 +239,7 @@
 				E63C1CD016D5ABF1006F32DA /* Default@2x.png in Resources */,
 				E63C1CD216D5ABF1006F32DA /* Default-568h@2x.png in Resources */,
 				E63C1CD516D5ABF1006F32DA /* MainStoryboard.storyboard in Resources */,
+				E6DC9B7016EDD96A00B4E1BE /* a1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

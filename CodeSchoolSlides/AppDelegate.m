@@ -15,6 +15,8 @@
 {
     UIViewController *feedViewController = [[UIViewController alloc] init];
     feedViewController.title = @"Feed";
+    UIImage *origImage = [UIImage imageNamed:@"a1.png"];
+    feedViewController.tabBarItem.image = [UIImage imageWithCGImage:origImage.CGImage scale:10 orientation:0 ];
     UIViewController *favoritesViewController = [[UIViewController alloc] init];
     favoritesViewController.title = @"Favorites";
     feedViewController.view.backgroundColor = [UIColor blueColor];
